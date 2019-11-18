@@ -2,7 +2,8 @@
 #line shows everyone's spot in line
 def line(people)
   if (people.size == 0)
-    return "The line is currently empty."
+    puts "The line is currently empty."
+    return
   end
   line_message = "The line is currently:"
   people.each_index do |current_spot|
