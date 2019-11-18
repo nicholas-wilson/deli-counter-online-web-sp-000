@@ -14,7 +14,6 @@ end
 
 #take_a_number
 def take_a_number(people_in_line = [], new_person)
-
   people_in_line << new_person
   puts "Welcome, #{new_person}. You are number #{people_in_line.index(new_person) + 1} in line."
   people_in_line
