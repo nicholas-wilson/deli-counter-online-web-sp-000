@@ -21,3 +21,7 @@ end
 
 #now_serving
 def now_serving(people_in_line = [])
+  "Currently serving #{people_in_line[0]}."
+  people_in_line = people_in_line.shift
+  people_in_line
+end
