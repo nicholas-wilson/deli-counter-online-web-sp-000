@@ -22,7 +22,7 @@ end
 #now_serving
 def now_serving(people_in_line = [])
   if (people_in_line.size == 0)
-    puts "The is nobody waiting to be served!"
+    puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{people_in_line[0]}."
   end
