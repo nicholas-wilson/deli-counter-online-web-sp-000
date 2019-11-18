@@ -1,6 +1,6 @@
 # Write your code here.
 #line shows everyone's spot in line
-def line(people_in_line = [])
+def line(people_in_line)
   if (people.size == 0)
     puts "The line is currently empty."
     return
