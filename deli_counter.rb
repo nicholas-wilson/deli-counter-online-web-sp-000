@@ -11,6 +11,11 @@ def line(people)
   end
   puts line_message
 end
+
 #take_a_number
+def take_a_number(people_in_line = [], new_person)
+  people_in_line << new_person
+  people_in_line
+end
 
 #now_serving
