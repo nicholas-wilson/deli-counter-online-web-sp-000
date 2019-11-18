@@ -1,6 +1,6 @@
 # Write your code here.
 #line shows everyone's spot in line
-def line(people)
+def line(people_in_line = [])
   if (people.size == 0)
     puts "The line is currently empty."
     return
@@ -20,3 +20,4 @@ def take_a_number(people_in_line = [], new_person)
 end
 
 #now_serving
+def now_serving(people_in_line = [])
