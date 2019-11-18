@@ -8,6 +8,7 @@ def line(people)
   people.each_index do |current_spot|
     line_message << " #{current_spot + 1}. #{people[current_spot]}"
   end
+  puts line_message
 end
 #take_a_number
 
