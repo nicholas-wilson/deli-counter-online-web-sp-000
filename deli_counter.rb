@@ -14,6 +14,8 @@ end
 
 #take_a_number
 def take_a_number(people_in_line = [], new_person)
+  puts new_person
+  puts people_in_line
   people_in_line << new_person
   people_in_line
 end
