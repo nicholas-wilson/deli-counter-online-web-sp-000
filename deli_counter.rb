@@ -7,7 +7,7 @@ def line(people_in_line = [])
   end
   line_message = "The line is currently:"
   people_in_line.each_index do |current_spot|
-    line_message << " #{current_spot + 1}. #{people[current_spot]}"
+    line_message << " #{current_spot + 1}. #{people_in_line[current_spot]}"
   end
   puts line_message
 end
